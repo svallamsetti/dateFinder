@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Date Finder</title>
+	<script type="text/javascript" src="datefinder.js"></script>
+	<link rel="stylesheet" type="text/css" href="datecss.css">
+</head>
+<body>
+<div>
+	<h1>Date Finder</h1>
+</div>
+<div >
+<p id ="result"> </p>
+</div>
+<div id ="bdayInfo">
+<table id="labelCss">
+	<tr>
+		<td><label>MilliSecond Difference</label></td>
+		<td><input type="textbox" id="one"></td>
+	</tr>
+	<tr>
+		<td><label>Day Difference</label></td>
+		<td><input type="textbox" id="two"></td>
+	</tr>
+	<tr>
+		<td><label>Days Rounded</label></td>
+		<td><input type="textbox" id="three"></td>
+	</tr>
+	<tr>
+		<td colspan="2" align ="center"><input type="button" id="calculate" value="Get Days Until Your Birthday" onclick="myResult()"></td>
+	</tr>
+</table>
+	
+</div>
+<div id = "bdayInfo">
+<table id="labelCss">
+	<tr>
+		<td><label >The Month Value (getMonth)</label></td>
+		<td><input type="textbox" id="getMonth"></td>
+	</tr>
+	<tr>
+		<td><label>The Day Value (getDate)</label></td>
+		<td><input type="textbox" id="getDate"></td>
+	</tr>
+	<tr>
+		<td><label>The Day of the Week (getDay)</label></td>
+		<td><input type="textbox" id="getDay"></td>
+	</tr>
+	<tr>
+		<td><label>The Year (getFullyear)</label></td>
+		<td><input type="textbox" id="getFullYear"></td>
+	</tr>
+	<tr>
+		<td><label>MilliSeconds (getTime)</label></td>
+		<td><input type="textbox" id="getTime"></td>
+	</tr>
+	<tr>
+		<td colspan="2" align ="center"><input type="button" id="calculate" value="Display Information" onclick="getDateInfo()"></td>
+	</tr>
+</table>
+</div>
+
+</body>
+</html>

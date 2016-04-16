@@ -1,0 +1,26 @@
+
+#labelCss
+{
+	color: blue;
+	font-size: 15px;
+	font-weight: bold;
+}
+input
+{
+	color: green;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+#bdayInfo
+{
+	margin: 100px;
+	padding: 10px;
+	display: inline-block;
+}
+table,td
+{
+	border: 2px solid black;
+	border-collapse: collapse;	
+	padding: 5px;
+}
